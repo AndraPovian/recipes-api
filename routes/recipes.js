@@ -17,15 +17,43 @@ const DATA_PATH = "data/recipes.json";
   res.json(recipes);
 });
 
+router.post("/", function (req, res, next){
+  var modDePreparare = req.body.stepsValue;
+  delete req.body.stepsValue;
+
+  var nume = req.body.name;
+  var img = req.body.img;
+  var categorie = req.body.categorie;
+  var time = parseFloat(req.body.time);
+  var nivel = req.body.nivel;
+  
+  var reteta = {
+    nume,
+    img,
+    categorie,
+    timp: time,
+    nivel,
+    modDePreparare
+  }
+  
+  createRecipe(reteta);
+  res.status(200).json(reteta);
+});
+
+function createRecipe(reteta){
+  var content = fs.readFileSync(DATA_PATH);
+  var recipes = JSON.parse(content);
+  recipes.push(reteta);
+  const contents = JSON.stringify(recipes, null, 2);
+  fs.writeFileSync(DATA_PATH, contents);
+};
+
 function getRecipes(page, items) {
-  const content = fs.readFileSync(DATA_PATH);
+  var content = fs.readFileSync(DATA_PATH);
   var recipes = JSON.parse(content);
 
   var trimStart = (page-1) * items;
   var trimEnd = trimStart + items;
-
-  console.log(trimStart);
-  console.log(trimEnd);
 
   return {
     recipes: recipes.slice(trimStart, trimEnd),
