@@ -40,10 +40,48 @@ router.post("/", function (req, res, next){
   res.status(200).json(reteta);
 });
 
+router.put("/", function (req, res, next){
+  var modDePreparare = req.body.stepsValue;
+  delete req.body.stepsValue;
+
+  var nume = req.body.name;
+  var img = req.body.img;
+  var categorie = req.body.categorie;
+  var time = parseFloat(req.body.time);
+  var nivel = req.body.nivel;
+  
+  var reteta = {
+    id: req.body.id,
+    nume,
+    img,
+    categorie,
+    timp: time,
+    nivel,
+    modDePreparare
+  }
+  
+  updateRecipe(reteta);
+  res.status(200).json(reteta);
+});
+
 function createRecipe(reteta){
   var content = fs.readFileSync(DATA_PATH);
   var recipes = JSON.parse(content);
   recipes.push(reteta);
+  const contents = JSON.stringify(recipes, null, 2);
+  fs.writeFileSync(DATA_PATH, contents);
+};
+
+function updateRecipe(reteta){
+  var content = fs.readFileSync(DATA_PATH);
+  var recipes = JSON.parse(content);
+  
+  var index = recipes.findIndex(r => r.id = reteta.id);
+  console.log(index);
+  console.log(reteta);
+  recipes[index] = reteta;
+  
+
   const contents = JSON.stringify(recipes, null, 2);
   fs.writeFileSync(DATA_PATH, contents);
 };
