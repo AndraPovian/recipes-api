@@ -44,6 +44,7 @@ router.put("/", function (req, res, next){
   var modDePreparare = req.body.stepsValue;
   delete req.body.stepsValue;
 
+  var id = req.body.id;
   var nume = req.body.name;
   var img = req.body.img;
   var categorie = req.body.categorie;
@@ -51,15 +52,15 @@ router.put("/", function (req, res, next){
   var nivel = req.body.nivel;
   
   var reteta = {
-    id: req.body.id,
+    id,
     nume,
     img,
     categorie,
     timp: time,
     nivel,
     modDePreparare
-  }
-  
+  };
+
   updateRecipe(reteta);
   res.status(200).json(reteta);
 });
@@ -75,12 +76,11 @@ function createRecipe(reteta){
 function updateRecipe(reteta){
   var content = fs.readFileSync(DATA_PATH);
   var recipes = JSON.parse(content);
-  
-  var index = recipes.findIndex(r => r.id = reteta.id);
-  console.log(index);
-  console.log(reteta);
+
+  var index = recipes.findIndex((r) => r.id === reteta.id);
+
   recipes[index] = reteta;
-  
+
 
   const contents = JSON.stringify(recipes, null, 2);
   fs.writeFileSync(DATA_PATH, contents);
