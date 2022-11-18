@@ -101,14 +101,14 @@ function updateRecipe(reteta){
 function getRecipes(page, items, filter) {
   var content = fs.readFileSync(DATA_PATH);
   var recipes = JSON.parse(content);
-  console.log(filter);
+  var allRecipes = recipes;
 
-  if (filter !== null){
-    if (recipes.filter((r)=> r.categorie === filter) !== []) {
+  if (filter !== 'null'){
+    if (recipes.filter((r)=> r.categorie === filter).length !== 0) {
       recipes = recipes.filter((r)=> r.categorie === filter);
     }
 
-    if (recipes.filter((r)=> r.nivel === filter) !== []) {
+    if (recipes.filter((r)=> r.nivel === filter).length !== 0) {
       recipes = recipes.filter((r)=> r.nivel === filter);
     }
   }
@@ -118,7 +118,8 @@ function getRecipes(page, items, filter) {
 
   return {
     recipes: recipes.slice(trimStart, trimEnd),
-    totalPages: Math.ceil(recipes.length / items)
+    totalPages: Math.ceil(recipes.length / items),
+    allRecipes
   };
 }
 
