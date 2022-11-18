@@ -12,8 +12,9 @@ const DATA_PATH = "data/recipes.json";
 
   var page = req.query.page;
   var items = req.query.items;
+  var filter = req.query.filter;
 
-  const recipes = getRecipes(parseInt(page), parseInt(items));
+  var recipes = getRecipes(parseInt(page), parseInt(items), filter);
   res.json(recipes);
 });
 
@@ -65,6 +66,17 @@ router.put("/", function (req, res, next){
   res.status(200).json(reteta);
 });
 
+router.delete("/", function (req, res, next) {
+  
+  var id = req.query.id;
+  
+  deleteRecipe(id);
+
+  res.status(200).json();
+});
+
+
+
 function createRecipe(reteta){
   var content = fs.readFileSync(DATA_PATH);
   var recipes = JSON.parse(content);
@@ -86,9 +98,20 @@ function updateRecipe(reteta){
   fs.writeFileSync(DATA_PATH, contents);
 };
 
-function getRecipes(page, items) {
+function getRecipes(page, items, filter) {
   var content = fs.readFileSync(DATA_PATH);
   var recipes = JSON.parse(content);
+  console.log(filter);
+
+  if (filter !== null){
+    if (recipes.filter((r)=> r.categorie === filter) !== []) {
+      recipes = recipes.filter((r)=> r.categorie === filter);
+    }
+
+    if (recipes.filter((r)=> r.nivel === filter) !== []) {
+      recipes = recipes.filter((r)=> r.nivel === filter);
+    }
+  }
 
   var trimStart = (page-1) * items;
   var trimEnd = trimStart + items;
@@ -98,6 +121,20 @@ function getRecipes(page, items) {
     totalPages: Math.ceil(recipes.length / items)
   };
 }
+
+
+function deleteRecipe(id){
+  var content = fs.readFileSync(DATA_PATH);
+  var recipes = JSON.parse(content);
+
+  var index = recipes.findIndex((r) => r.id === id);
+  console.log(index);
+
+  recipes.splice(index, 1);
+
+  const contents = JSON.stringify(recipes, null, 2);
+  fs.writeFileSync(DATA_PATH, contents);
+};
 
 module.exports = router;
 
