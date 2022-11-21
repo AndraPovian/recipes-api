@@ -21,7 +21,8 @@ const DATA_PATH = "data/recipes.json";
 router.post("/", function (req, res, next){
   var modDePreparare = req.body.stepsValue;
   delete req.body.stepsValue;
-
+ 
+  var id = req.body.id;
   var nume = req.body.name;
   var img = req.body.img;
   var categorie = req.body.categorie;
@@ -29,6 +30,7 @@ router.post("/", function (req, res, next){
   var nivel = req.body.nivel;
   
   var reteta = {
+    id,
     nume,
     img,
     categorie,
