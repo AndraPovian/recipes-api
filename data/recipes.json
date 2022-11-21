@@ -69,5 +69,190 @@
       " Se amesteca bine spaghetele.",
       "Se mai adauga putin de piper proaspat macinat"
     ]
+  },
+  {
+    "id": "41",
+    "nume": "Ciorba ardeleneasca",
+    "img": "https://savoriurbane.com/wp-content/uploads/2017/09/Ciorba-de-pui-ardeleneasca-cu-smantana-reteta-savori-urbane.jpg",
+    "categorie": "ciorbe",
+    "timp": 70,
+    "nivel": "intermediar",
+    "modDePreparare": [
+      "Curatam si spalam zarzavaturile si legumele.",
+      "Zarzavaturile se taie in cubulete sau rondele, ceapa se toaca marunt.",
+      "Se taie carnea cubulete.",
+      "In oala de supa se incinge o lingura de ulei si se prajeste carnea repede pe toate partile.",
+      "Dupa ce carnea este rumena, se adauga si ceapa.",
+      "Se lasa ceapa asa pana devine usor sticloasa si apoi condimentam cu sare, piper si paprika.",
+      "Se amesteca incontinuu cateva minute, cu grija sa nu se arda paprika.",
+      "Se adauga cca. 2 L de apa calda peste carne si se lasa totul la fiert pana scade apa la jumatate.",
+      "Dupa ce a scazut apa se adauga legumele si zarzavaturile.",
+      "Ciorba este gata cand legumele si zarzavaturile sunt fierte.",
+      "Se scoate smantana intr-un bol suficient de incapator si se bate cu telul sau cu furculita impreuna cu zeama de lamaie.",
+      "Apoi se adauga un polonic mic de supa fierbinte si se omogenizeaza, tot asa se mai adauga un polonic de supa si din nou se omogenizeaza.",
+      "Smantana omogenizata se adauga peste restul ciorbei."
+    ]
+  },
+  {
+    "id": "411",
+    "nume": "Papanasi",
+    "img": "https://www.lauralaurentiu.ro/wp-content/uploads/2011/08/papanasi-cu-smantana-si-dulceata-reteta-papanasi-cu-dulceata-si-smantana-reteta-pas-cu-pas.jpg",
+    "categorie": "desert",
+    "timp": 50,
+    "nivel": "incepator",
+    "modDePreparare": [
+      "Intr-un castron incapator se pune intai branza de vaci, ouale intregi, sarea, vanilia si coaja rasa de lamaie si se omogenizeaza totul cu un mixer de mana.",
+      "Deasupra se cerne faina si si se adauga si o lingurita rasa de praf de copt, si se omogenizeaza totul.",
+      "Se acopera aluatul cu folie de plastic aplicata direct pe suprafata lui si se pune la frigider pentru 30 de minute.",
+      "Se infaineaza foarte putin masa de lucru si se pune aluatul pe ea, aluatul se presara si deasupra cu foarte putina faina.",
+      "Se intinde aluatul si se decupeaza cu forme rotunde, la fel se procedeaza si in centrul aluatului.",
+      "Papanasii se prajesc in baie de ulei, intr-o tigaie mai adanca in care se pune un strat de ulei de circa 4 cm.",
+      "Cand uleiul este incins se adauga aluatul, cand papanasii plutesc si sunt umflati si prajiti se scot din tigaie intr-o tava tapetata cu servete de hartie absorbante.",
+      "Papanasii se servesc fierbinti, se aseaza pe farfurii si se garnisesc cu smantana si dulceata la alegere."
+    ]
+  },
+  {
+    "id": "4111",
+    "nume": "Supa de taitei",
+    "img": "https://www.lauralaurentiu.ro/wp-content/uploads/2009/03/supa-cu-taitei-supa-de-cocos-supa-de-pasare-reteta-pas-cu-pas.jpg",
+    "categorie": "desert",
+    "timp": 30,
+    "nivel": "incepator",
+    "modDePreparare": [
+      "Se umple o oala cu 2 l de apa rece, se adauga 1 lingura rasa de sare si bucatile de carne de gaina. Se pune oala pe foc mic, iar cand supa incepe sa fiarba in clocote foarte mici, se aduna regulat spuma formata la suprafata.",
+      "In momentul in care nu se mai formeaza spuma, se adauga morcovii curatati si spalati, radacina de pastarnac si patrunjel, curatate si spalate, feliile de telina si ceapa intreaga, curatata de foi.",
+      "Se fierbe supa de gaina pe foc mic, iar atunci cand carnea este patrunsa, se stinge focul.",
+      "Se scot legumele din supa si se adauga taiteii.",
+      "Cand titeii sunt facuti se adauga patrunjel proaspat tocat si piper proaspat macinat."
+    ]
+  },
+  {
+    "id": "41111",
+    "nume": "Supa de linte rosie",
+    "img": "https://www.lauralaurentiu.ro/wp-content/uploads/2010/11/supa-de-linte-rosie-reteta-de-supa-de-linte-rosie-ezogelin-reteta-turceasca.jpg",
+    "categorie": "ciorbe",
+    "timp": 50,
+    "nivel": "intermediar",
+    "modDePreparare": [
+      "Se spala si se curata legumele, ceapa se toaca marunt, ardeiul la fel. Morcovul si telina se dau pe razatoare. ",
+      "Se incinge o cratita pe foc mediu si se adauga uleiul de masline, apoi si legumele. Se calesc ceapa, ardeiul, morcovul si telina pana cand se inmoaie.",
+      "Intre timp, lintea se spala si se scurge bine de apa.",
+      "Se adauga apa fierbinte peste legumele calite din oala, apoi lintea.",
+      "Indata ce incepe sa fiarba cu clocote, se formeaza o spuma groasa care trebuie pe cat posibil indepartata, dupa ce se spumeaza, se adauga sarea, dafinul si toate condimentele.",
+      "Dupa ce lintea este bine fiarta si s-a ajustat cu apa supa se adauga rosia fara pielita taiata in cubulete mici.",
+      "Supa de linte rosie se mai da in clocot timp de 2-3 minute si supa este gata."
+    ]
+  },
+  {
+    "id": "411111",
+    "nume": "Aripioare de pui in sos mango",
+    "img": "https://thumbor.unica.ro/unsafe/700x536/smart/filters:format(webp):contrast(8):quality(75)/https://retete.unica.ro/wp-content/uploads/2022/09/aripioare_sos_mango.jpg",
+    "categorie": "felPrincipal",
+    "timp": 60,
+    "nivel": "intermediar",
+    "modDePreparare": [
+      "Aripioarele se pun intr-un castron incapator, se adauga sarea, o lingurita din usturoiul granulat, piperul, zeama de lamaie si faina, si se amesteca bine totul.",
+      "Aripioarele se stropesc cu putin ulei si se amesteca. Pe o tava tapetata cu hartie de copt se aseaza aripioarele. Se gatesc in cuptorul preincalzit la 180 de grade Celsius, caldura sus si jos timp de 15-20 de minute.",
+      "Cat timp se gatesc aripioarele se prepara sosul de mango. Intr-un blender se adauga mango, o lingurita de usturoi granulat, ceapa granulata si mierea. Se paseazs bine.",
+      "Intr-o cratita in care s-a pus un strop de ulei se adauga sosul de mango si se gateste timp de 5 minute amestecand din cand in cand, apoi se lasa la racit.",
+      "Cand aripioarele sunt gata se pun intr-un castron si se adauga sosul de mango si se amesteca.",
+      "Aripioarele de pui în sos de mango se pun alaturi de orez fiert."
+    ]
+  },
+  {
+    "id": "4111",
+    "nume": "Coaste de porc la cuptor",
+    "img": "https://thumbor.unica.ro/unsafe/700x536/smart/filters:format(webp):contrast(8):quality(75)/https://retete.unica.ro/wp-content/uploads/2022/06/coaste_de_porc.jpg",
+    "categorie": "felPrincipal",
+    "timp": 90,
+    "nivel": "intermediar",
+    "modDePreparare": [
+      "Se curata si se spala ceapa, se taie solzisori, iar apoi se curata usturoiul si se da prin presa.",
+      "Ceapa si usturoiul se calesc la foc mare în putin ulei, cand ceapa devine aurie se adauga o lingura de apa, atunci cand apa s-a evaporat se mai adauga o lingura de apa. Se repeta procesul de mai multe ori, astfel ceapa va deveni mai dulce cu fiecare repetare a procesului.",
+      "Se adauga piureul de rosii, mustarul, otetul balsamic, sosul Worcestershire, zaharul, romul, paprika si chili. Se da focul la minim si se lasa la gatit 10-15 minute.",
+      "Se opreste focul si se paseaza amestecul. In procesul de blendare se adauga si bicarbonatul de sodiu pentru a neutraliza aciditatea sosului.",
+      "Coastele de porc se acoperaă cu sosul obtinut si se dau la marinat, la frigider timp de minim 2 ore.",
+      "Coastele se gatesc la cuptor acoperite cu folie de aluminiu timp de 40 de minute. Dupa trecerea timpului se indeparteaza folia de aluminiu si se lasa sa se rumeneasca incă 20 de minute.",
+      "Coastele de porc se scot din cuptor, se acopera cu capac si se lasa 5 minute pentru a se raci."
+    ]
+  },
+  {
+    "id": "41111",
+    "nume": "Supa de greceasca de ied",
+    "img": "https://thumbor.unica.ro/unsafe/700x536/smart/filters:format(webp):contrast(8):quality(75)/https://retete.unica.ro/wp-content/uploads/2021/03/supa_de_ied.jpg",
+    "categorie": "ciorbe",
+    "timp": 190,
+    "nivel": "avansat",
+    "modDePreparare": [
+      "Intr-o oala foarte mare se adauga carnea de ied si se acopera cu apa, se aduce la fierbere la foc mare, cand a ajuns la punctul de fierbere se da focul la mediu-mare.",
+      "Spuma care se formeaza se indeparteaza si se continua fierberea timp de 2 – 2,5 ore sau pana cand carnea poate fi patrunsa usor cu furculita.",
+      "Carnea se scoate din supa si se da deoparte, supa se strecoara pentru a elimina eventualele oase mici si  se adauga intr-o oala potrivita.",
+      "Supa se readuce la fierbere si se condimenteaza cu sare si piper.",
+      "Rosiile se paseaza la blender sau manual si se adauga in supa alaturi de pasta de roii, iar supa se mai fierbe vreo 15 minute.",
+      "Carnea se indeparteaza de pe oase si se adauga in oala. Supa greceasca de ied se serveste cu branza feta sfarmata deasupra."
+    ]
+  },
+  {
+    "id": "411111",
+    "nume": "Tarta de mere",
+    "img": "https://thumbor.unica.ro/unsafe/700x536/smart/filters:format(webp):contrast(8):quality(75)/https://retete.unica.ro/wp-content/uploads/2022/11/tarta_mere.jpg",
+    "categorie": "desert",
+    "timp": 70,
+    "nivel": "avansat",
+    "modDePreparare": [
+      "Se incepe prepararea aluatului prin amestecarea fainii cu 4 linguri de zahar si sare.\nUntul rece se taie cuburi si se adauga peste faina si se framanta cu mainile.",
+      "Se adauga 8 linguri de apa si se omogenizeaza cu ajutorul unei linguri la inceput, iar apoi cu mainile. Daca aluatul este prea uscat se mai pot adauga 1-2 linguri de apa.",
+      "Se formeaza o bila de aluat, se acopera cu folie alimentara si se da la frigider pentru 30 de minute.",
+      "In timp ce aluatul e la rece, se spala merele, se scot cotoarele si se decojesc. Merele se taie cubulete si se pun intr-un castron. Se adauga zahar brun, doua linguri de scortisoara si putina nucsoara. Se ammesteca bine.",
+      "Dupa ce aluatul s-a racit, se imparte in doua. O parte din aluat se ruleaza intr-o forma rotunda.",
+      "Intr-o forma de tarta cu aproximativ 26 cm diametru se intinde aluatul astfel incat aluatul sa se prelinga in afara formei cam 1 cm.",
+      "Amestecul de mere se pune peste aluat si se stropeste amestecul cu o lingura de apa. Cealalta jumatate de aluat se intinde in aceeasi forma rotunda si se adauga peste forma.",
+      "Se sigileaza aluatul pe margini prin miscari de ciupire.",
+      "In mijlocul tartei cu mere se decupeaza, cu ajutorul unui cutit bine ascutit, un cerc din aluat si se fac cateva crestaturi pentru ca tarta sa poata respira in timpul coptului.",
+      "Se preincalzeste cuptorul la 200 de grade Celsius.",
+      "Tarta de mere se coace la 180 de grade Celsius, timp de 30 de minute. Dupa trecerea acestui timp se verifica și se mai coace pana prinde o culoare brun aurie.",
+      "Tarta se serveste cu zahar presarat deasupra."
+    ]
+  },
+  {
+    "id": "4111111",
+    "nume": "Aperitiv rosii umplute cu feta si ardei copt",
+    "img": "https://www.bucataras.ro/uploads/modules/news/88910/656x440_rosii-umplute-cu-feta-si-ardei-copt-548582.jpg",
+    "categorie": "aperitiv",
+    "timp": 12,
+    "nivel": "incepator",
+    "modDePreparare": [
+      "Branza feta se sfarama intr-un bol cu furculita.",
+      "Se adauga ardeiul copt tocat cubulete, catelul de usturoi dat pe razatoarea mica, patrunjelul tocat marunt si se condimenteaza cu sare si piper dupa gust.",
+      "Se pune iaurtul grecesc si se omogenizeaza compozitia.",
+      "Se scobesc cu grija rosiile, se lasa cu gura in jos sa se scurga de zeama si apoi se umplu cu crema de branza.",
+      "Se decoreaza cu frunze de busuioc proaspat."
+    ]
+  },
+  {
+    "id": "41111111",
+    "nume": "Aperitiv cu ton si branza",
+    "img": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img/https://pofta-buna.com/wp-content/uploads/2022/05/aperitive-cu-ton-si-branza-cosulete-umplute-1-700x525.jpg",
+    "categorie": "aperitiv",
+    "timp": 30,
+    "nivel": "incepator",
+    "modDePreparare": [
+      "Intr-un bol se pune branza si tonul, se amesteca pana la omogenizare cele doua ingrediente si se introduc in frigider pana in momentul utilizarii.",
+      "Se pregateste tava de cupcake, si se aseaza pe rand feliile de paine intinde cu sucitorul in fiecare loc de cupcake, dand forma unui cosulet.",
+      "Se introduce tava la cuptorul incalzit in prealabil, pentru 10 minute, la o temperatura de 180 de grade Celsius.",
+      "Cand cosuletele au o culoare rumena lescoatem din cuptor si le lasam sa se raceasca complet.",
+      "Se umple fiecare cosulet cu compozitia de ton si branza, apoi se decoreaza cu masline si frunzulite de rozmarin."
+    ]
+  },
+  {
+    "id": "411111111",
+    "nume": "Placinta cu mere",
+    "img": "https://thumbor.unica.ro/unsafe/700x536/smart/filters:format(webp):contrast(8):quality(75)/https://retete.unica.ro/wp-content/uploads/2017/10/placinta-cu-mere1-e1507731037783.jpg",
+    "categorie": "desert",
+    "timp": 55,
+    "nivel": "incepator",
+    "modDePreparare": [
+      "Pentru a face umplutura placintei cu mere, se spala merele, se dau pe razatoarea mare si se pun la calit intr-un vas care nu lipeste, cu 3-5 linguri de zahar. Se adauga si scortisoara dupa 5 minute. Se amesteca ocazional si, cand se mai evapora zeama, se da de pe foc si lasa la racit."
+    ]
   }
 ]
